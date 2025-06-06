@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 st.set_page_config(page_title="네이버 부동산 매물 수집기", layout="centered")
 
-st.title("🏠 네이버 부동산 매물 수집기")
+st.title("부동산 매물 수집기")
 st.markdown("**📌 지역 이름을 입력하면 자동으로 법정동 코드를 찾아 매물 정보를 수집하고 엑셀로 저장합니다.**")
 
 # 세션 상태 초기화
